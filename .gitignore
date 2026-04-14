@@ -56,3 +56,9 @@ devenv.local.yaml
 
 # pre-commit
 .pre-commit-config.yaml
+.envrc
+devenv.nix
+CLAUDE.md
+devenv.lock
+devenv.yaml
+.github/copilot-instructions.md
