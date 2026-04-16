@@ -62,3 +62,4 @@ CLAUDE.md
 devenv.lock
 devenv.yaml
 .github/copilot-instructions.md
+src-tauri/gen/

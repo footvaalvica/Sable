@@ -42,6 +42,9 @@ pub fn show_or_create_main_window(app: &AppHandle<crate::BrowserEngine>) -> taur
     #[cfg(target_os = "windows")]
     let builder = builder.decorations(false);
 
+    #[cfg(target_os = "ios")]
+    let builder = builder.with_input_accessory_view_builder(|_webview| None); 
+
     builder.build()?;
     Ok(())
 }
